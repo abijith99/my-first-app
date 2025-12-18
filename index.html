@@ -1,4 +1,16 @@
-<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+  <h2>Login</h2>
+
+  <input id="email" placeholder="Email" />
+  <input id="password" type="password" placeholder="Password" />
+  <button onclick="login()">Login</button>
+
+ <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 <script>
   const supabaseClient = window.supabase.createClient(
     "https://bvohlcmabbivmluveymy.supabase.co",
@@ -22,3 +34,6 @@
     }
   }
 </script>
+
+</body>
+</html>
